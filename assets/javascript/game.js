@@ -10,6 +10,8 @@ var lettersGuessedText = document.getElementById("lettersGuessed");
 var chancesText = document.getElementById("chances");
 var winsText = document.getElementById("wins");
 var lossesText = document.getElementById("losses");
+var beginButton = document.getElementById("begin-button")
+var resetButton = document.getElementById("reset-button")
 
 
 // Game Data

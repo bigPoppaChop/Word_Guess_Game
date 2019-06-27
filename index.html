@@ -12,19 +12,24 @@
 <title>Word Guess Game</title>
 </head>
 <body>
-  <h1>Word Guess Game</h1>
-  <br>
-  <h2 id="goalWord"></h2>
-  <br>
-  <p id="instructions">Guess the word, one letter at a time.</p>
-  <p id="userGuess">You Guessed: </p>
-  <p id="lettersGuessed">Letters Guessed: </p>
-  <p id="chances">Remaining Guesses: 10</p>
-  <p id="wins">Wins: 0</p>
-  <p id="losses">Losses: 0</p>
-
-
-
+<div class="container bg-light">
+  <div class="jumbotron text-center border bg-secondary text-white">
+    <h1>Word Guess Game</h1>
+    <h3 id="instructions">Guess the word, one letter at a time.</h3>
+    <button type="button" class="btn btn-lg btn-primary mr-5" id="begin-button">Begin</button>
+    <button type="button" class="btn btn-lg btn-danger" id="reset-button">Reset</button>
+  </div>
+  <div class="container border text-center">
+    <h2 id="goalWord"></h2>
+  </div>
+  <div class="container">
+    <p id="userGuess">You Guessed: </p>
+    <p id="lettersGuessed">Letters Guessed: </p>
+    <p id="chances">Remaining Guesses: 10</>
+    <p id="wins">Wins: 0</p>
+    <p id="losses">Losses: 0</p>
+  </div>
+</div>  
 <script src="assets/javascript/game.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
